@@ -20,3 +20,20 @@ CSV Files/*
 # ...but make an exception for the .gitkeep file.
 # This ensures the empty folder itself is tracked by Git.
 !CSV Files/.gitkeep
+
+# Ignore Python cache files
+pycache/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Virtual Environment folders
+venv/
+.venv/
+env/
+.env/
+ENV/
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
